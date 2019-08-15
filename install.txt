@@ -1,0 +1,4 @@
+sudo yum install python36
+curl -O https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py --user
+pip3 install pandas numpy plotly --user
